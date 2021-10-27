@@ -2623,6 +2623,11 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+		.image.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
 
 			.image.fit:first-child {
 				margin-top: 0;
@@ -4687,3 +4692,5 @@ input, select, textarea {
 		}
 
 	}
+
+	
