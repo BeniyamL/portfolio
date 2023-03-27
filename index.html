@@ -4,6 +4,7 @@
 		<title>My Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -14,8 +15,8 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>This is<br />
-						MY Portifolio</h1>
+						<h1>Beniyam's<br />
+						Portifolio</h1>
 						<p>A landing page for my projects and abilities </p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -31,6 +32,7 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="mygo.html">Mygo</a></li>
 							<li><a href="maze.html">Maze Project</a></li>
 							<li><a href="location.html">Location tracker</a></li>
               
@@ -52,29 +54,76 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">October 25, 2021</span>
-									<h2><a href="#">Who am I?</a></h2>
-									<p>My name is Beniyam Legesse. I'm a passionate software developer who lives in Ethiopia.
-									I completed my first degree in Electrical & computer Enginnering specialization in computer stream.
-									I finally got a master in Software Enginnering from Addis Ababa University, Ethiopia. I have worked in different companies with various job postion. Ethio Telecom
-								    and Ethiopian shipping & Logistics service Enterprise are some of the companies that I have worked for. starting from 2016, I have been working 
-								    as a software engineer. Thus I have developed desktop & web-based applications using various programming language. Some of the projects that I
-								    have developed are indicated below. Have a Nice visit.</p>
+									<span class="date">March, 2023</span>
+									<h2><a href="index.html">About Me</a></h2>
+									<p class="text-justify">It's been an exciting surprise to see a benchmark company like you that recruits promising young professionals. 
+										This is the right place to help you find a passionate software Engineer who fits to your company. 
+										It gives you an overview to one of your professional who moves your company one step ahead.
+									</p>
+									<p class="text-justify">
+										I find the field of Web Development, Web Security, Artificial Intelligence, Embedded Engineering, Machine Learning, Natural Language processing, 
+										Robotics, Networking exciting and I believe I have relevant experience that would make me a good fit for your company
+										if your service related to my experience.
+									</p>
+									<p class="text-justify">
+
+										My professional experiences span teaching programming courses at a leading University in Ethiopia to working as an IT/IP/VSAT Technician 
+										at a leading telecom company, EthioTelecom. I have experience with maintaining DSLAMs, Routers, ADSLS, Switches, and Computers, Office Machines and 
+										VSAT equipment’s installation and maintenance. Since 2015, I have been working as a Programmer at Ethiopian Shipping and Logistic Service Enterprise, 
+										where I have developed desktop and web-based applications. I have also been, in my personal capacity, keeping abreast of the newest technologies and 
+										frameworks by developing personal projects that might be converted into large scale products.
+
+									</p>
+									<ul class="actions special">
+										<li><a href="#posts" class="button large">Check it out</a></li>
+									</ul>
+									<p class="text-justify">
+										I have strong professional interest and academic background in Programming, Machine Learning and 
+										Natural Language Processing. The Engineering courses that I have taken in my degree program enable 
+										me to easily identify and solve problems, while my specialization as a Software Engineer have made 
+										me adept at developing software and assuring their quality. I am highly motivated with an excellent 
+										work ethic, have a good understanding of workplace safety and culture and can adapt quickly to company 
+										policies and procedures. I have a commitment to maintaining an inclusive, collaborative, diverse, and 
+										supportive work environment. I look forward to the opportunity to engage you and your team further.
+									</p>
+										
+									<P class="text-justify">
+										<strong>
+											Yours Sincerely
+											<br />
+											Beniyam Legesse
+										</strong>
+									</p>
+									
 								</header>
-								<a href="#" class="image main"><img src="images/prog.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Check it out</a></li>
-								</ul>
+								<img src="images/prog.jpg" alt="" class="image main"/>
+								
 							</article>
 
 							
 						<!-- Posts -->
-							<section class="posts">
+							<section class="posts" id="posts">
+								<article>
+									<header>
+										<span class="date">March, 2023</span>
+										<h2><a href="location.html">Mygo <br />
+										A bus managemnt System</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/mygo.JPG" alt="" /></a>
+									<p>Its one of my personal project that would be converted into a large scale product. It automates the bus management activities.
+										It makes the ticketing service easy so that the customers check tickets avilability & issue tickets online. The system makes 
+										customer's journey enjoyable starting from where they are departure to their destination. It also provides a tracking mechanism
+										for the managers. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://zeaye.com" class="button">Full Story</a></li>
+									</ul>
+								</article>
 								<article>
 									<header>
 										<span class="date">March, 2022</span>
-										<h2><a href="location.html">Location Tracker <br />
-										a system which trackes the location</a></h2>
+										<h2><a href="location.html">Loc Tracker <br />
+										A Location Tracker System</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/loc1.png" alt="" /></a>
 									<p>This is one of my portifolio project that was done at the end of the final semister at holberton school. The project covers all fundamental concepts required for any web development. Location tracking refers to technologies that physically locate and electronically record and track the movement of people or object. Location tracking can be used, for a number purpose from government surveillance, to online consumer tracking</p>
@@ -172,7 +221,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="post">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -188,7 +237,7 @@
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send Message" onclick="sendEmail()" /></li>
 								</ul>
 							</form>
 						</section>
