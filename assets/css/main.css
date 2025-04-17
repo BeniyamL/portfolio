@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -159,7 +154,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		text-decoration: none;
 	}
 
@@ -2924,9 +2919,9 @@ input, select, textarea {
 			position: relative;
 		}
 
-		header > p {
+		/* header > p {
 			font-style: italic;
-		}
+		} */
 
 		header > h1 + p {
 			font-size: 1.1rem;
@@ -3771,7 +3766,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			/*border-top: solid 2px #eeeeee;*/
 			margin: 0;
 		}
 
@@ -3868,9 +3863,9 @@ input, select, textarea {
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				/*border-left-width: 2px;*/
 				border-style: solid;
-				border-top-width: 2px;
+				/* border-top-width: 2px; */
 				text-align: center;
 			}
 
@@ -4693,4 +4688,53 @@ input, select, textarea {
 
 	}
 
-	
+	/* customs css  */
+	.title{
+		text-align: left !important;
+		font-size: 1.6rem;
+		line-height: 1.1;
+		font-weight: bold;
+	}
+	.title i{
+		padding: 0 6px;
+	}
+	.title:hover{
+		cursor: pointer;
+		color: #18bfef;;
+	}
+	.edu-content, .exp-content{
+		display: none;
+	}
+	.edu-content-show, .exp-content-show{
+		display: block;
+	}
+	.edu-first{
+		padding: 0 20px;
+	}
+	.edu-second{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding: 0 20px;
+	}
+	.sub-title{
+		text-align: left;
+		margin-top: -40px;
+		
+	}
+	.edu-date{
+		text-align: left;
+		margin-top: -40px;
+	}
+	.edu-grade{
+		text-align: left;
+		margin-top: -40px;
+	}
+	.edu-list{
+		text-align: left;
+		margin-top: -20px;
+	}
+	.edu-list li{
+		margin-left: 50px;
+	}
