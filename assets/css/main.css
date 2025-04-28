@@ -4738,3 +4738,25 @@ input, select, textarea {
 	.edu-list li{
 		margin-left: 50px;
 	}
+	.img-edu-exp{
+		height: 120px;
+		width: 120px
+	}
+	@media screen and (max-width: 980px) {
+		.img-edu-exp{
+			height: 110px;
+			width: 110px
+		}
+	}
+	@media screen and (max-width: 736px) {
+		.img-edu-exp{
+			height: 90px;
+			width: 90px
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.img-edu-exp{
+			height: 60px;
+			width: 60px
+		}
+	}
